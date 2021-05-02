@@ -1,0 +1,453 @@
+.header-color{
+  background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid{
+
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+ 
+}
+
+.avatar-img{
+ width: 250px;
+ height: 270px;
+ border-radius: 50%;
+margin-top: 4%;
+
+}
+
+.banner-text{
+  background-color: black;
+  opacity: 0.8;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+.banner-text h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  padding: 8px;
+  font-size: 40px;
+}
+
+.contact-Body{
+  margin: auto;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 600px;
+  color: black;
+  background-color: white;
+  border: 2px solid red ;
+}
+
+.contact-img{
+  height: 250px;
+  overflow: hidden;
+  transition: transform .5s ease;
+  border-radius: 50%;
+  cursor: pointer;
+
+
+}
+
+.contact-img:hover{
+  transform: scale(1.1);
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 50px;
+ 
+  
+}
+
+.contact-list i:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width:600px){
+  .avatar-img{
+    height: 200px;
+    width: 150px;
+  }
+
+  .banner-text{
+    height: 50%;
+  
+  }
+  .banner-text h1{
+    font-size: 28px;
+   
+  
+  }
+  
+  .banner-text hr{
+    border-top: 4px dotted white;
+   
+  }
+  
+  
+  .banner-text p{
+    color: white;
+    font-size: 15px;
+    padding: 1.5em;
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .social-links i{
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+.contact-Body{
+  margin: auto;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 8%;
+}
+
+.contact-grid h2{
+  font-size: 35px;
+}
+.contact-grid p{
+  font-size: 12px;
+ 
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  color: black;
+  background-color: white;
+  border: 2px solid red ;
+}
+
+.contact-img{
+  height: 200px;
+  overflow: hidden;
+  transition: transform .5s ease;
+  border-radius: 50%;
+  cursor: pointer;
+
+
+}
+
+.contact-img:hover{
+  transform: scale(1.1);
+}
+
+.contact-grid hr{
+  border-top: 3px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 30px;
+  display: flex;
+ 
+  
+}
+
+.contact-list h2{
+  margin-top: 15%;
+}
+
+.contact-list i:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+.content{
+
+display: flex;
+flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+  
+  
+ 
+}
+
+
+@media screen and (min-width:601px) and (max-width:1000px){
+  .avatar-img{
+    height: 220px;
+    width: 200px;
+  }
+
+  
+  .banner-text h1{
+    font-size: 35px;
+   
+  
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+   
+  }
+  
+  
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1.5em;
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .social-links i{
+    color: white;
+    padding: 5px;
+    font-size: 35px;
+  }
+  
+  .contact-Body{
+    margin: auto;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  
+  .contact-grid h2{
+    font-size: 40px;
+  }
+  .contact-grid p{
+    font-size: 15px;
+   
+  }
+  
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    color: black;
+    background-color: white;
+    border: 2px solid red ;
+  }
+  
+  .contact-img{
+    height: 250px;
+    overflow: hidden;
+    transition: transform .5s ease;
+    border-radius: 50%;
+    cursor: pointer;
+  
+  
+  }
+  
+  .contact-img:hover{
+    transform: scale(1.1);
+  }
+  
+  .contact-grid hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact-list i{
+    font-size: 50px;
+    display: flex;
+   
+    
+  }
+  
+  .contact-list h2{
+    margin-top: 8%;
+  }
+  
+  .contact-list i:hover{
+    color: grey;
+    cursor: pointer;
+  }
+
+  
+  
+
+}
+
+
+@media screen and (min-width:901px) and (max-width:1000px){
+  .avatar-img{
+    height: 260px;
+    width: 250px;
+  }
+
+  
+  .banner-text h1{
+    font-size: 45px;
+   
+  
+  }
+  
+  .banner-text hr{
+    border-top: 6px dotted white;
+   
+  }
+  
+  
+  .banner-text p{
+    color: white;
+    font-size: 23px;
+    padding: 2em;
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .social-links i{
+    color: white;
+    padding: 8px;
+    font-size: 40px;
+  }
+
+  .contact-Body{
+    margin: auto;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  
+  .contact-grid h2{
+    font-size: 40px;
+  }
+  .contact-grid p{
+    font-size: 15px;
+   
+  }
+  
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    color: black;
+    background-color: white;
+    border: 2px solid red ;
+  }
+  
+  .contact-img{
+    height: 250px;
+    overflow: hidden;
+    transition: transform .5s ease;
+    border-radius: 50%;
+    cursor: pointer;
+  
+  
+  }
+  
+  .contact-img:hover{
+    transform: scale(1.1);
+  }
+  
+  .contact-grid hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact-list i{
+    font-size: 40px;
+    display: flex;
+   
+    
+  }
+  
+  .contact-list h2{
+    margin-top: 8%;
+  }
+  
+  .contact-list i:hover{
+    color: grey;
+    cursor: pointer;
+  }
+  
+  
+}
