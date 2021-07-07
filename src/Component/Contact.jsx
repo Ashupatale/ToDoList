@@ -9,7 +9,7 @@ class Contact extends Component{
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Ashutosh Patale</h2>
-                        <img src="https://scontent.fnag6-1.fna.fbcdn.net/v/t1.6435-9/81458001_2873208282905552_6881817624410324992_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=174925&_nc_ohc=lRj4wQoF_WUAX-bLqaC&_nc_oc=AQlAuBfrr0nx71j7ZLrbkq7h1kb7Ro2G6IfjlffKD0wr2Q2kTRGO8PqIMpmU-GHA25dOXezg9tTOk5HkRYlaX57J&_nc_ht=scontent.fnag6-1.fna&oh=c8bfa9a7932494c43b122eeb3d4c05e3&oe=60A07A16" 
+                        <img src="https://scontent.fnag1-2.fna.fbcdn.net/v/t1.6435-9/81458001_2873208282905552_6881817624410324992_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=174925&_nc_ohc=_dkgZIleL68AX8e--bz&_nc_oc=AQlnhe-F_jql86Oc7jZLAEXdVj71RMKmLKXRwBVlFlojM4EMQARdgLhcBEn5ftFUEN6A0QFcG15fe2tu-gS6H2Ba&_nc_ht=scontent.fnag1-2.fna&oh=08c58448ea452106d62532f509edb4ed&oe=60E3B696" 
                         alt="myimg"
                         className="contact-img"
                         />

@@ -1,0 +1,44 @@
+
+
+.MainDiv{
+    text-align: center;
+    border: 2px solid green;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    padding-top: 20px;
+
+
+}
+.EditInput{
+    padding: 5px 10px;
+}
+
+.InputType{
+    padding: 5px 30px;
+}
+
+.BtnType{
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 2%;
+}
+.BtnType:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.deleteType{
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteType:hover{
+    background-color: red;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+}

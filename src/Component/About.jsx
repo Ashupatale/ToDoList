@@ -14,7 +14,7 @@ class About extends Component{
         <Grid className="GridOne">
             <Cell className="resume-left-col" col={4}>
                 <div className="about-us" style={{textAlign:'center'}}  >
-                    <img src="https://scontent.fnag6-1.fna.fbcdn.net/v/t1.6435-0/s526x395/159136274_3264587620434281_244168972708364547_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=i46IjECDqOEAX9VhhDd&_nc_ht=scontent.fnag6-1.fna&tp=7&oh=44b4644edc68d909b5fab92b3027ff94&oe=60AB38A2" 
+                    <img src="https://scontent.fnag1-3.fna.fbcdn.net/v/t1.6435-9/159136274_3264587620434281_244168972708364547_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=u5U1pCwsnTEAX9AqMRw&_nc_ht=scontent.fnag1-3.fna&oh=59d52071c895120672289d10fd96c5f8&oe=60E4C44E" 
                     alt="avatar"
                     style={{height: '300px',borderRadius:"50%"}}
                     />
